@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2739;
+
+}
+
+.footer {
+    background-color: #eee;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding-right: 15px;
+    padding-right: 10px;
+}
+
+.Negset {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-color: #1F2739;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+   padding: 8px;
+   color: white;
+}
+
+.right {
+    width: 60%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-img {
+    height: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.clients {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    height: 350px;
+}
+
+.client-img {
+    max-width: 250px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.images-title > p {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0;
+    font-weight: 700;
+}
+
+.images-title {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 35px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.quote > p {
+    font-style: italic;
+    font-size: larger;
+}
+
+.quote > .author {
+    font-style: normal;
+    font-weight: 600;
+    justify-content: end;
+}
+
+.footer {
+     text-align: center;
+}
+
+#Inquiry {
+    height: 250px;
+}
+
+.email-form {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2739;
+    flex-direction: column;
+    color: white;
+}
+
+#email-field {
+    height: 20px;
+    width: 200px;
+}
